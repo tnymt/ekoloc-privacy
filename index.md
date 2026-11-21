@@ -4,7 +4,7 @@ title: EkoLoc Privacy Policy
 
 # EkoLoc Privacy Policy / Gizlilik Politikası / Datenschutzerklärung
 
-Effective date / Yürürlük / Gültig ab: 21 November 2026 · applies to EkoLoc 1.11.3 and later
+Effective date / Yürürlük / Gültig ab: 21 November 2026 · applies to EkoLoc 1.11.4 and later
 (`com.ekoloc.offline`, Google Play: `com.ekoloc.offline.autotest`)
 
 [English](#english) · [Türkçe](#türkçe) · [Deutsch](#deutsch)
@@ -16,8 +16,11 @@ Effective date / Yürürlük / Gültig ab: 21 November 2026 · applies to EkoLoc
 EkoLoc is an offline field and navigation app. It is published by the developer of the Google Play
 developer account "recetem.app".
 
-**We collect no personal data.** EkoLoc has no Android `INTERNET` permission, so it cannot connect
-to any server. It has no user accounts, no advertising, no advertising ID, no analytics, no crash
+**We collect no personal data.** EkoLoc uses the internet for one thing only: when you tap a
+download button, it downloads the public map, routing or Reçetem data package from GitHub
+([data release](https://github.com/tnymt/ekoloc-data/releases/tag/v1)) over HTTPS. The request only asks for the file; no location, identifier
+or other personal data is sent. As with any download, GitHub can see your IP address and standard
+HTTP information under its own privacy statement. There is no background connection. It has no user accounts, no advertising, no advertising ID, no analytics, no crash
 reporting and no third-party tracking SDKs (no Firebase, no Facebook SDK). Nothing you enter or
 record in the app is sent to the developer or to anyone else by the app.
 
@@ -66,8 +69,11 @@ developer email address shown on the EkoLoc Google Play listing.
 EkoLoc çevrimdışı bir saha ve navigasyon uygulamasıdır. Google Play'de "recetem.app" geliştirici
 hesabı tarafından yayımlanır.
 
-**Kişisel veri toplamayız.** EkoLoc'un Android `INTERNET` izni yoktur; hiçbir sunucuya bağlanamaz.
-Kullanıcı hesabı, reklam, reklam kimliği, analitik, hata raporu ve üçüncü taraf izleme kütüphanesi
+**Kişisel veri toplamayız.** EkoLoc interneti yalnız bir iş için kullanır: bir indirme düğmesine
+dokunduğunuzda açık harita, rota veya Reçetem veri paketini GitHub'dan ([veri yayını](https://github.com/tnymt/ekoloc-data/releases/tag/v1))
+HTTPS ile indirir. İstek yalnız dosyayı ister; konum, kimlik veya başka kişisel veri gönderilmez.
+Her indirmede olduğu gibi GitHub, kendi gizlilik bildirimi kapsamında IP adresinizi ve olağan HTTP
+bilgilerini görebilir. Arka planda bağlantı yoktur. Kullanıcı hesabı, reklam, reklam kimliği, analitik, hata raporu ve üçüncü taraf izleme kütüphanesi
 (Firebase, Facebook SDK) yoktur. Uygulamada girdiğiniz veya kaydettiğiniz hiçbir şey uygulama
 tarafından geliştiriciye ya da başkasına gönderilmez.
 
@@ -116,8 +122,12 @@ sayfasındaki geliştirici e-posta adresine yazın.
 EkoLoc ist eine Offline-App für Navigation und Feldeinsätze. Sie wird über das Google-Play-
 Entwicklerkonto „recetem.app“ veröffentlicht.
 
-**Wir erheben keine personenbezogenen Daten.** EkoLoc besitzt keine Android-Berechtigung
-`INTERNET` und kann daher keine Verbindung zu Servern herstellen. Es gibt kein Benutzerkonto, keine
+**Wir erheben keine personenbezogenen Daten.** EkoLoc nutzt das Internet nur für einen Zweck: Wenn
+Sie auf eine Download-Schaltfläche tippen, lädt die App das öffentliche Karten-, Routing- oder
+Reçetem-Datenpaket über HTTPS von GitHub ([Daten-Release](https://github.com/tnymt/ekoloc-data/releases/tag/v1)). Die Anfrage fordert nur die
+Datei an; Standort, Kennungen oder andere personenbezogene Daten werden nicht gesendet. Wie bei
+jedem Download kann GitHub nach eigener Datenschutzerklärung Ihre IP-Adresse und übliche
+HTTP-Angaben sehen. Es gibt keine Hintergrundverbindung. Es gibt kein Benutzerkonto, keine
 Werbung, keine Werbe-ID, keine Analyse, keine Absturzberichte und keine Tracking-Bibliotheken
 Dritter (kein Firebase, kein Facebook SDK). Die App übermittelt nichts, was Sie eingeben oder
 aufzeichnen, an den Entwickler oder an Dritte.
